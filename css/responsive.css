@@ -9,6 +9,13 @@
 	.card-footer .price .now-price h2 span{
 		font-size: 13px;
 	}
+	.containers {
+	  width: 100%;
+	  padding-right: 5px;
+	  padding-left: 5px;
+	  margin-right: auto;
+	  margin-left: auto;
+	}
 }
 
 @media only screen and (min-width: 600px) {

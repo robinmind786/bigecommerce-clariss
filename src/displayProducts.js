@@ -59,7 +59,7 @@ const display = (products, element) => {
              </div>
            </div>
            <div class="btn">
-             <button>Add To Cart</button>
+             <button id="cartBtn">Add To Cart</button>
            </div>
          </div>
        </article>

@@ -264,4 +264,106 @@
 }
 
 
+/*Shoping*/
+.containers {
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.shop-right .container {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.filter .filter-header {
+	background: var(--main-color);
+	font-size: 15px;
+	font-weight: 600;
+	padding: 9px 10px;
+	line-height: 22.5px;
+	color: var(--normal-color);
+	border: 1px solid var(--main-color);
+}
+.filter {
+	margin-bottom: 2rem;
+}
+
+
+.filter .filter-body {
+	border-top: none;
+	border: 1px solid #ccc;
+}
+
+.filter .filter-body ul li {
+	list-style: none;
+	padding: 9px 10px;
+}
+
+.filter .filter-body ul li button {
+	background: inherit;
+	outline: none;
+	border: none;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 21px;
+	color: #111;
+	transition: all .4s ease;
+}
+
+.filter .filter-body ul li button:hover {
+	color: rgb(204, 204, 204);
+	cursor: pointer;
+}
+
+.filter .search-box {
+	width: 100%;
+}
+
+.filter .search-box .input-box {
+	padding: 9px 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.filter .search-box .input-box input {
+	padding: 9px 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+.sort {
+	padding-bottom: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sort .sort-left button {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	background: #ccc;
+	border: 1px solid #444;
+	white-space: nowrap;
+	transition: all.3s ease;
+}
+
+.sort .sort-left button:hover {
+	cursor: pointer;
+	opacity: .5;
+}
+
+.sort .sort-left button i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
 

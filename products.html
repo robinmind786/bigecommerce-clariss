@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to Clariss Websites</title>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/product.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/utilities.css">
+  <link rel="stylesheet" type="text/css" href="css/gird.min.css">
+</head>
+<body>
+ 
+<a href="index.html">Home</a>
+<a href="products.html">Shop</a>
+<section class="shop section-padding">
+  <div class="containers">
+    <div class="item-2">
+      <div class="shop-left">
+        <div class="containers">
+          <div class="filter">
+            <div class="filter-header">
+              <h3>Search by name or SKU</h3>
+            </div>
+            <div class="filter-body">
+              <div class="search-box">
+                <form>
+                  <div class="input-box">
+                    <input type="search" name="search" placeholder="Search by name or SKU">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="filter">
+            <div class="filter-header">
+              <h3>Brand</h3>
+            </div>
+            <div class="filter-body">
+              <ul>
+                <li><button>DJI</button></li>
+                <li><button>Ematic</button></li>
+              </ul>
+            </div>
+          </div>
+          <div class="filter">
+            <div class="filter-header">
+              <h3>COLOR</h3>
+            </div>
+            <div class="filter-body">
+              <ul>
+                <li><button>Black</button></li>
+                <li><button>Blue</button></li>
+                <li><button>Orange</button></li>
+                <li><button>Sliver</button></li>
+                <li><button>White</button></li>
+              </ul>
+            </div>
+          </div>
+          <div class="filter">
+            <div class="filter-header">
+              <h3>SIZE</h3>
+            </div>
+            <div class="filter-body">
+              <ul>
+                <li><button>Large</button></li>
+                <li><button>Medium</button></li>
+                <li><button>Small</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shop-right">
+        <div class="containers">
+          <div class="sort">
+            <div class="sort-left">
+              <button id="GridView"><i class="fa fa-th-large"></i></button>
+              <button id="listView"><i class="fa fa-th-list"></i></button>
+            </div>
+            <div class="sort-right">
+              <h4>Sort By:</h4>
+            </div>
+          </div>
+          <div class="grid-3 grid" id="allProducts">
+            <div class="loading" id="allLoader">
+              <div class="loader"></div>
+            </div>
+            <!-- Product Showing Here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <script type="module" src="./src/pages/products.js"></script>
+</body>
+</html>
