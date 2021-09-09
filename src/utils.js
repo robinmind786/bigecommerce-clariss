@@ -2,6 +2,14 @@
 const allProductsUrl = 'https://raw.githubusercontent.com/robinmind786/b6b629-clariss-clectronics-api/main/products1.json';
 
 
+const formatPrice = (price) => {
+  let formattedPrice = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  }).format((price / 100).toFixed(2));
+  return formattedPrice;
+};
+
 const getElement = (selection) => {
 	const element = document.querySelector(selection);
 	if(element) return element;
@@ -31,4 +39,5 @@ export {
 	allProductsUrl,
 	setStorageItem,
 	getStorageItem,
+	formatPrice
 }

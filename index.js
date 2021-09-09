@@ -11,7 +11,8 @@ const init = async () => {
 	const products = await fetchProducts();
 	if(products) {
 		setupStore(products);
-		display(store, getElement('#topProducts'));
+		const topproducts = store.filter((product) => product.topproducts === true);
+		display(topproducts, getElement('#topProducts'));
 	}
 	fixBug();
 };

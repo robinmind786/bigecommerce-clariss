@@ -1,3 +1,5 @@
+import { formatPrice } from './utils.js';
+
 const display = (products, element) => {
 	const newProducsts = products.map((product) => {
 		const {sale, image, brand, name, color, reviews, wasprice, presentprice} = product;
@@ -50,10 +52,10 @@ const display = (products, element) => {
          <div class="card-footer">
            <div class="price">
              <div class="was-price">
-               <h2>WAS: <span><del>${wasprice/100}</del></span></h2>
+               <h2>WAS: <span><del id="priceDel">${formatPrice(wasprice)}</del></span></h2>
              </div>
              <div class="now-price">
-               <h2>Now: <span>${presentprice/100}</span></h2>
+               <h2>Now: <span>${formatPrice(presentprice)}</span></h2>
              </div>
            </div>
            <div class="btn">
