@@ -1,5 +1,6 @@
 // const allProductsUrl = 'https://raw.githubusercontent.com/robinmind786/b6b629-clariss-clectronics-api/main/products.json';
-const allProductsUrl = 'https://raw.githubusercontent.com/robinmind786/b6b629-clariss-clectronics-api/main/products1.json';
+// const allProductsUrl = 'https://raw.githubusercontent.com/robinmind786/b6b629-clariss-clectronics-api/main/products1.json';
+const allProductsUrl = 'https://raw.githubusercontent.com/robinmind786/b6b629-clariss-clectronics-api/main/products2.json';
 
 
 const formatPrice = (price) => {

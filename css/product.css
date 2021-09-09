@@ -118,6 +118,8 @@
 	}
 }
 
+
+
 .card-body ul {
 	display: flex;
 	justify-content: center;
@@ -190,20 +192,23 @@
 }
 
 .card-footer .price .was-price h2 {
-	font-size: 14px;
+	white-space: ;
+	font-size: 12px;
 	font-weight: 600;
 	line-height: 16.8px;
 	color: rgb(117, 117, 117);
 }
 
 .card-footer .price .now-price h2 {
+	white-space: nowrap;
 	font-size: 12px;
 	font-weight: 600;
 	color: rgb(117, 117, 117);
 }
 
+
 .card-footer .price .now-price h2 span{
-	font-size: 21px;
+	font-size: 16px;
 	color: #222;
 }
 
