@@ -1,0 +1,212 @@
+.products .grid {
+	grid-column-gap: 40px;
+}
+
+.card {
+	width: 100%;
+}
+
+.card-header {
+	position: relative;
+}
+
+.card-header .sale {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.card-header .sale .sale-text {
+	background: var(--main-color);
+	font-size: 11px;
+	padding: 3px;
+	font-weight: 400;
+	color: var(--normal-color);
+	border-radius: 5px;
+}
+
+.card-header .quick-view {
+	background: var(--main-color);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: none;
+}
+
+.card:hover .quick-view {
+	display: block;
+}
+
+.card-header .quick-view ul {
+	display: flex;
+	justify-content: center;
+}
+
+.card-header .quick-view ul li {
+	list-style: none;
+}
+
+.card-header .quick-view .tooltip {
+	position: relative;
+	z-index: 2;
+}
+
+.card-header .quick-view .tooltip .tooltipText {
+	position: absolute;
+	top: -22px;
+	padding: 0 5px;
+	left: -10px;
+	font-size: 11px;
+	white-space: nowrap;
+	background: var(--main-color);
+	border-radius: 5px;
+	visibility: hidden;
+}
+
+.card-header .quick-view .tooltip .tooltipText:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--main-color) transparent transparent transparent;
+}
+
+.card-header .quick-view  .tooltip:hover .tooltipText {
+	visibility: visible;
+}
+
+.card-header .quick-view ul li {
+	padding: 0 5px;
+}
+
+.card-header .quick-view ul li button {
+	padding: 10px;
+	border: none;
+	outline: none;
+	background: inherit;
+	font-size: 15px;
+	color: var(--normal-color);
+}
+
+.card-header .quick-view ul li button:hover {
+	cursor: pointer;
+}
+
+.card-body {
+	height: 135px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.card-body ul {
+	display: flex;
+	justify-content: center;
+}
+
+.card-body ul li {
+	list-style: none;
+}
+
+.card-body .brand h5 {
+	color: rgb(117, 117, 117);
+}
+
+.card-body .title {
+	margin-top: 5px;
+}
+
+.card-body .title a {
+	color: #222;
+	font-size: 15px;
+	font-weight: 900;
+	line-height:  22.5px;
+	transition: all .3s ease;
+}
+
+.card-body .title a:hover {
+	color: rgb(117, 117, 117);
+}
+
+.card-body .color {
+	margin-top: 20px;
+}
+
+.card-body .color ul li {
+	height: 18px;
+	width: 18px;
+	margin: 0 4px;
+	border: 1px solid #ccc;
+}
+
+.card-body .color ul li:nth-child(1) {
+	background: white;
+}
+
+.card-body .color ul li:nth-child(2) {
+	background: black;
+}
+
+.card-body .color ul li:nth-child(3) {
+	background: #3584d7;
+}
+
+.card-body .rating {
+	margin-top: 5px;
+}
+
+.card-body .rating ul li {
+	margin: 0 2px;
+	color: #ccc;
+}
+
+.card-footer {
+	margin-top: 20px;
+}
+
+.card-footer .price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-footer .price .was-price h2 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16.8px;
+	color: rgb(117, 117, 117);
+}
+
+.card-footer .price .now-price h2 {
+	font-size: 12px;
+	font-weight: 600;
+	color: rgb(117, 117, 117);
+}
+
+.card-footer .price .now-price h2 span{
+	font-size: 21px;
+	color: #222;
+}
+
+.card-footer .btn {
+	margin-top: 10px;
+}
+.card-footer .btn button {
+	width: 100%;
+	padding: 10px ;
+	background: var(--main-color);
+	border: 1px solid var(--main-color);
+	outline: none;
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--normal-color);
+	transition: all .3s ease;
+}
+
+.card-footer .btn button:hover {
+	cursor: pointer;
+	background: var(--normal-color);
+	color: var(--main-color);
+}

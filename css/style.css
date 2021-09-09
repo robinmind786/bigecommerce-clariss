@@ -1,0 +1,24 @@
+*, :after, :before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #fff;
+	font-size: 1rem;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #000;
+    cursor: auto;
+    position: relative;
+}
+
+:root {
+	--main-color: #3584d7;
+	--dark-color: #222222;
+	--normal-color: #ffffff;
+}
