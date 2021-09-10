@@ -22,3 +22,142 @@ body {
 	--dark-color: #222222;
 	--normal-color: #ffffff;
 }
+
+
+/*Header*/
+.topnav-alert {
+    background: var(--main-color);
+    height: 40px;
+}
+
+.topnav-alert .topnav-alert-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topnav-alert .topnav-alert-content p {
+    font-size: 14px;
+    color: var(--normal-color);
+    font-size: 400;
+}
+
+.topnav-focus {
+    width: 100%;
+    height: 100%;
+    height: 90px;
+    border-bottom: 1px solid #ccc;
+}
+
+.topnav-focus .topnav-focus-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav-focus .topnav-focus-content .logo a {
+    font-size: 38px;
+    font-weight: 800;
+    color: #111;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.topnav-focus .topnav-focus-content .search-box {
+    background: red;
+    width: 60%;
+}
+
+.topnav-focus .topnav-focus-content .search-box .input-box {
+    display: flex;
+    height: 45px;
+    background: red;
+}
+
+.topnav-focus .topnav-focus-content .search-box .input-box input{
+    width: 90%;
+    height: 100%;
+    padding: 0 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: none;
+    outline: none;
+}
+
+.topnav-focus .topnav-focus-content .search-box .input-box button {
+    width: 10%;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    outline: none;
+    font-size: 20px;
+    color: var(--normal-color);
+    transform: all .3s ease;
+}
+
+.topnav-focus .topnav-focus-content .search-box .input-box button:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.topnav-focus .topnav-focus-content .navuser ul {
+    display: flex;
+}
+
+.topnav-focus .topnav-focus-content .navuser ul li {
+    list-style: none;
+    padding-left: 14px;
+}
+
+.topnav-focus .topnav-focus-content .navuser ul li a {
+    font-size: 25px;
+    color: var(--dark-color);
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    z-index: 99;
+}
+
+nav .topnav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .topnav .nav-links {
+    height: 100%;
+    line-height: 40px;
+}
+
+nav .topnav .nav-links .links {
+    display: flex;
+}
+
+nav .topnav .nav-links .links li {
+    position: relative;
+    list-style: none;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .topnav .nav-links .links li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark-color);
+    white-space: nowrap;
+    transition: all .3s ease;
+}
+
+nav .topnav .nav-links .links li a:hover {
+    color: #ccc;
+}
