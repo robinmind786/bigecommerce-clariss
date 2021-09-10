@@ -116,6 +116,29 @@
 	.card-body .title h4 {
 		font-size: 14px;
 	}
+	.shop-left {
+		padding: 20px 0;
+		position: fixed;
+		z-index: 1;
+		width: 50%;
+		background: var(--normal-color);
+		top: 0;
+		right: 0;
+		height: 100%;
+		overflow: auto;
+		display: none;
+		transition: all .3s ease;
+		background: whitesmoke;
+	}
+
+	.shop-left.filterShow {
+		display: block;
+	}
+
+	#filterBtn:hover {
+		cursor: pointer;
+		color: red;
+	}
 }
 
 

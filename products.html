@@ -16,10 +16,11 @@
  
 <a href="index.html">Home</a>
 <a href="products.html">Shop</a>
+<a id="filterBtn">Filter</a>
 <section class="shop section-padding">
   <div class="containers">
     <div class="item-2">
-      <div class="shop-left">
+      <div class="shop-left filterShow" id="filter">
         <div class="containers">
           <div class="filter">
             <div class="filter-header">
@@ -27,9 +28,9 @@
             </div>
             <div class="filter-body">
               <div class="search-box">
-                <form>
+                <form class="search-form">
                   <div class="input-box">
-                    <input type="search" name="search" placeholder="Search by name or SKU">
+                    <input class="search-input" type="search" name="search" placeholder="Search by name or SKU">
                   </div>
                 </form>
               </div>
@@ -40,7 +41,7 @@
               <h3>Brand</h3>
             </div>
             <div class="filter-body">
-              <ul>
+              <ul class="brands">
                 <li><button>DJI</button></li>
                 <li><button>Ematic</button></li>
               </ul>
@@ -60,7 +61,7 @@
                   max="100"
                 />
               </form>
-              <p>Max Price: $65</p>
+              <p class="price-value">Max Price: $65</p>
             </div>
           </div>
           <div class="filter">
@@ -113,6 +114,7 @@
     </div>
   </div>
 </section>
+
 
 
  <script type="module" src="./src/pages/products.js"></script>

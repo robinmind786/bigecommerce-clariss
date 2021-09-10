@@ -1,3 +1,4 @@
+
 // specfic import
 import { getElement } from '../utils.js';
 import { store } from '../store.js'
@@ -37,4 +38,15 @@ gridView.addEventListener('click', function() {
 
 window.addEventListener('DOMContentLoaded', function() {
 	document.getElementById("GridView").disabled = true;
+});
+
+
+
+
+// filter show
+const filterBtn = document.getElementById('filterBtn');
+const filterShow = document.getElementById('filter');
+
+filterBtn.addEventListener('click', function() {
+	filterShow.classList.toggle('filterShow');
 });
