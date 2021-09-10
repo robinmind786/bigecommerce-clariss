@@ -337,6 +337,20 @@
 	outline: none;
 }
 
+.filter .price-form {
+	padding: 9px 10px;
+}
+
+.filter p {
+	padding: 9px 10px;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.filter .price-form  input {
+	width: 100%;
+}
+
 .sort {
 	padding-bottom: 2rem;
 	display: flex;
@@ -365,5 +379,6 @@
 	transform: translate(-50%, -50%);
 	font-size: 20px;
 }
+
 
 
