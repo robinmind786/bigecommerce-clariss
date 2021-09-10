@@ -42,11 +42,6 @@
     position: relative;
   }
 
-  .card-header .quick-view {
-    position: absolute;
-    bottom: -25px;
-  }
-
   .card-header .quick-view ul li button {
     padding: 5px;
     font-size: 10px;
